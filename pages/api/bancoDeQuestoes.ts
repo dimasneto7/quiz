@@ -2,7 +2,7 @@ import QuestaoModel from "../../model/questao";
 import RespostaModel from "../../model/resposta";
 
 const questoes: QuestaoModel[] = [
-  new QuestaoModel(306, "Qũal bicho transmite a Doençs de Chagas?", [
+  new QuestaoModel(306, "Qual bicho transmite a Doença de Chagas?", [
     RespostaModel.errada("Abelha"),
     RespostaModel.errada("Barata"),
     RespostaModel.errada("Pulga"),
@@ -10,7 +10,7 @@ const questoes: QuestaoModel[] = [
   ]),
   new QuestaoModel(
     202,
-    "Qũal fruto é conhecido no Norte e Nordeeste como 'jerimum'?",
+    "Qual fruto é conhecido no Norte e Nordeeste como 'jerimum'?",
     [
       RespostaModel.errada("Caju"),
       RespostaModel.errada("Côco"),
@@ -18,15 +18,15 @@ const questoes: QuestaoModel[] = [
       RespostaModel.certa("Abóbora"),
     ]
   ),
-  new QuestaoModel(203, "Qũal é o coletibo de cães?", [
+  new QuestaoModel(203, "Qual é o coletivo de cães?", [
     RespostaModel.errada("Manada"),
     RespostaModel.errada("Alcateia"),
     RespostaModel.errada("Rebanho"),
-    RespostaModel.certa("Mantilha"),
+    RespostaModel.certa("Matilha"),
   ]),
   new QuestaoModel(
     204,
-    "Qũal é o triângulo que tem todos os lados diferentes?",
+    "Qual é o triângulo que tem todos os lados diferentes?",
     [
       RespostaModel.errada("Equilátero"),
       RespostaModel.errada("Isóceles"),
